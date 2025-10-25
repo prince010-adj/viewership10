@@ -1,17 +1,40 @@
-#TV VIEWERSHIP DATA#
+**BRIGHTTV VIEWERSHIP DATA**
 
-This dataset contains information on TV viewership patterns across various South African provinces. Each record represents a single viewing instance, detailing the viewer’s demographics, the channel watched, and the viewing time and date.
+**INTRODUCTION/PROBLEM STATEMENT**
+BrightTv is one of the most Inflential TV stations in South Africa with diverse viewership and different channels.This is a data that shows the names of TV programs that customers are watching across different regions and the time they consume the content,understanding who watches what, when and where is key to improving programming decisions and audience engagement.
 
-The data can be used to analyze:
+**AIM**
+The aim is to perform analysis on the viewership data to better understand the viewer behaviour,content popularity and usage patterns to improve BrightTV performance,grow subscription base and user engagement from January to March,2016.
 
-Viewer demographics (age, gender, race)
 
-Channel popularity
+**OBJECTIVES**
+ We can achieve the Aim by
 
-Viewing patterns by day, time, or province
+      - Data Inspection
+      - Data Ingestion
+      - Data Checks and Cleaning
+      - Data Analysis
+      - Data Visualization 
+      - Data  Presentation and Insights
 
-Audience segmentation (kids, youth, adults)
+Some of the analysis performed includes:
 
+      - Viewership by different race
+      - Viewership by Gender
+      - Usage by Province
+      - Consumption by Age Classification
+      - Daily/Monthly Viewership
+      - Viewership by time of the day
+      
+**TOOLS/PLATFORMS USED**
+
+      
+      
+      - Snowflake:  for Data cleaning,manipulation and Analysis
+      - Microsoft Excel: For visualising and analysing the data
+      - Canvas: for data presentation
+      
+**DATA STRUCTURE**
 
 |columns   | Description|       
 |:--------|:--------:|
@@ -25,5 +48,5 @@ Audience segmentation (kids, youth, adults)
 |AGE| Age of the viewer|	
 |GENDER| Gender of the viewer|	
 |AGE_GROUP|	Age group category (kid, youth, adult)|	
-|RACE| category of the viewer (as reported)|	
+|RACE| category of the viewer (black,white,unspecified)|	
 |PROVINCE| Province in which the viewing took place|	
