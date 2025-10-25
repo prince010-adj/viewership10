@@ -51,13 +51,6 @@ CHANNEL2,
 MONTHNAME(RECORDDATE2_TS) as month_name,
 TO_DATE(RECORDDATE2_TS) as watch_date,
 
-
-CASE
-When day_name IN ('saturday','sunday') then 'weekend'
-else 'weekday'
-End as day_of_week_classification,
-from snowflake_learning_db.public.viewership;
-
 DURATION_2,
 
 CASE
