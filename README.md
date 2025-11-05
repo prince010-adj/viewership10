@@ -10,29 +10,30 @@ The aim is to perform analysis on the viewership data to better understand the v
 **OBJECTIVES**
  We can achieve the Aim by
 
-      - Data Inspection
-      - Data Ingestion
-      - Data Checks and Cleaning
-      - Data Analysis
-      - Data Visualization 
-      - Data  Presentation and Insights
+      * Data Inspection
+      * Data Ingestion
+      * Data Checks and Cleaning
+      * Data Analysis
+      * Data Visualization 
+      * Data  Presentation and Insights
 
 Some of the analysis performed includes:
 
-      - Viewership by different race
-      - Viewership by Gender
-      - Usage by Province
-      - Consumption by Age Classification
-      - Daily/Monthly Viewership
-      - Viewership by time of the day
+      * Viewership by different race
+      * Viewership by Gender
+      * Usage by Province
+      * Consumption by Age Classification
+      * Daily/Monthly Viewership
+      * Viewership by time of the day
       
 **TOOLS/PLATFORMS USED**
 
+     
+      * Snowflake:  for Data cleaning,manipulation and Analysis
       
+      * Microsoft Excel: For visualising and analysing the data
       
-      - Snowflake:  for Data cleaning,manipulation and Analysis
-      - Microsoft Excel: For visualising and analysing the data
-      - Canvas: for data presentation
+      * Canvas: for data presentation
       
 **DATA STRUCTURE**
 
